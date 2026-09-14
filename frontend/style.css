@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin-top: 0;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px 0;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#addBtn {
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+    #addBtn:hover {
+        background-color: #0056b3;
+    }
+
+.intern-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-top: 15px;
+    border-radius: 5px;
+    background-color: #fafafa;
+}
+
+    .intern-card h3 {
+        margin: 0 0 5px 0;
+    }
+
+    .intern-card p {
+        margin: 0 0 10px 0;
+        color: #555;
+    }
+
+.delete-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    width: auto;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+    .delete-btn:hover {
+        background-color: #c82333;
+    }
+
+.edit-btn {
+    background-color: #ffc107;
+    color: black;
+    border: none;
+    width: auto;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 5px;
+}
+
+    .edit-btn:hover {
+        background-color: #e0a800;
+    }
